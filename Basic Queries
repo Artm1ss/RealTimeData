@@ -1,0 +1,18 @@
+INSERT INTO production_changes (
+    uuid,
+    title_id,
+    change_type,
+    before,
+    after,
+    created_at
+) VALUES (
+    1,
+    1,
+'season_length',
+    STRUCT(season_id := 1, episode_count := 12),
+    STRUCT(season_id := 1, episode_count := 8),
+    '2021-02-08 10:00:00'
+);
+INSERT INTO titles VALUES (1, 'Stranger Things');
+INSERT INTO titles VALUES (2, 'Black Mirror');
+INSERT INTO titles VALUES (3, 'Bojack Horseman');
