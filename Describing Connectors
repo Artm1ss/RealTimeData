@@ -1,0 +1,22 @@
+DESCRIBE CONNECTOR `postgres-source` ;
+Name                 : postgres-source
+Class                : io.confluent.connect.jdbc.JdbcSourceConnector
+Type                 : source
+State                : FAILED
+WorkerId             : 192.168.65.3:8083
+Trace                : org.apache.kafka.connect.errors.ConnectException 
+
+ Task ID | State  | Error Trace
+---------------------------------------------------------------------
+ 0       | FAILED | org.apache.kafka.connect.errors.ConnectException 
+ 
+ Name                 : postgres-source
+Class                : io.confluent.connect.jdbc.JdbcSourceConnector
+Type                 : source
+State                : RUNNING
+WorkerId             : 192.168.65.3:8083
+
+ Task ID | State   | Error Trace
+---------------------------------
+ 0       | RUNNING |
+--------------------------------
