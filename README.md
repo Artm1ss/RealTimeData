@@ -6,5 +6,4 @@ ksqlDB servers are responsible for running your stream processing applications (
 you have to visit my introduce page to see finished projrct feautures and how to have it.
 
 githhub supported page:
-http://github.com - automatic!
 [GitHub](http://github.com)
